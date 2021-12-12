@@ -4,6 +4,6 @@ public interface CartService {
 	
 	public int insertCart(CartVO vo);
 	public int updateCart(CartVO vo);
-	public int deleteCart(int id);
+	public int deleteCart(int seq);
 
 }
