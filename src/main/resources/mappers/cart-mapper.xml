@@ -3,7 +3,7 @@
 <mapper namespace="Cart">
 	<insert id="insertCart">
 		insert into CART (itemname, price, url, hashtag, image)
-		values(#{itemname}, #{price}, #{url}, #{hashtag}, #{image}})
+		values(#{itemname}, #{price}, #{url}, #{hashtag}, #{image})
 	</insert>
 	<update id="updateCart">
 		update CART set itemname=#{itemname}, price=#{price}, url=#{url}, hashtag=#{hashtag}, image=#{image}
