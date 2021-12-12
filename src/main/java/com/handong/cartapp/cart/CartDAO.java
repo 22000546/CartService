@@ -24,5 +24,10 @@ public class CartDAO {
 		int result = sqlSession.delete("Cart.deleteCart", seq);
 		return result;
 	}
+	
+	public CartVO getCart(int seq) {
+		CartVO one = sqlSession.selectOne("Cart.getCart", seq);
+		return one;
+	}
 
 }
