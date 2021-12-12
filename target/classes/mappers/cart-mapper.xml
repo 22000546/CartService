@@ -12,4 +12,7 @@
 	<delete id="deleteCart">
 		delete from CART where seq=#{seq}
 	</delete>
+	<select id="getCart" resultType="cart">
+		select * from CART where seq=#{seq}
+	</select>
 </mapper>
