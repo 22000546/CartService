@@ -1,0 +1,49 @@
+body {
+	background: #B19A91;
+}
+
+.name {
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.name h3 {
+	padding-top: 100px;
+	color: #3B2B24;
+}
+
+.name h1 {
+	color: #ffffff;
+	font-weight: 800;
+	font-size: 400%;
+	margin-top: 10px;
+}
+
+.main {
+	background: #EBE8E3;
+	border-radius: 5px;
+	width: 50%;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+input {
+	background-color: #FFFDF9;
+	border: none;
+	width: 450px;
+	height: 60px;
+	margin: 5px;
+}
+
+input::placeholder {
+	color: #3B2B24;
+}
+
+button {
+	background-color: #FFFDF9;
+	color: #3B2B24;
+	border: none;
+	border-radius: 5px;
+	width: 150px;
+	height: 80px;
+}
