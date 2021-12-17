@@ -5,6 +5,6 @@
 <configuration>
 	<typeAliases>
 		<typeAlias alias="cart" type="com.handong.cartapp.cart.CartVO"/>
-		<!-- <typeAlias alias="user" type="com.handong.cartapp.user.UserVO"/> -->
+		<typeAlias alias="user" type="com.handong.cartapp.user.UserVO"/>
 	</typeAliases>
 </configuration>
