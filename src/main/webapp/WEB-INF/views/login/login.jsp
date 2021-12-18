@@ -14,17 +14,16 @@
 		<h1>Your Cart</h1>
 	</div>
 	<div class="main">
-		<form method="post" action="loginOk">
-			<table>
-			<tr>
-				<td><input type='text' name='userid' placeholder="ID" /></td>
-				<td id="button"><button type='submit'>LOG IN</button></td>
-			</tr>
-			<tr>
-				<td><input type='password' name='password' placeholder="PASSWORD" /></td>
-			</tr>
-			
-			</table>
+		<form id="form" method="post" action="loginOk">
+			<div class="input">
+				<div>
+					<input type='text' name='userid' placeholder="ID" />
+					<input type='password' name='password' placeholder="PASSWORD" />
+				</div>
+				<div class="right">
+					<button id="button" type='submit'>LOG IN</button>
+				</div>
+			</div>
 		</form>
 	</div>
 
