@@ -2,6 +2,8 @@ package com.handong.cartapp.cart;
 
 import java.util.Date;
 
+import org.springframework.web.multipart.MultipartFile;
+
 public class CartVO {
 	
 	private int seq;
@@ -12,6 +14,7 @@ public class CartVO {
 	private String url;
 	private String hashtag;
 	private String image;
+	private MultipartFile uploadFile;
 	
 	public int getSeq() {
 		return seq;
@@ -60,6 +63,12 @@ public class CartVO {
 	}
 	public void setImage(String image) {
 		this.image = image;
+	}
+	public MultipartFile getUploadFile() {
+		return uploadFile;
+	}
+	public void setUploadFile(MultipartFile uploadFile) {
+		this.uploadFile = uploadFile;
 	}
 
 }
