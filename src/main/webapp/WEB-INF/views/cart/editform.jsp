@@ -24,7 +24,7 @@
 						<td>상품 이름</td>
 						<td><form:input path="itemname" /></td>
 						
-						<td><button type="button">이미지 업로드</button></td>
+						<td><input type="file" name="uploadFile"/></td>
 						<td></td>
 
 						<td>가격</td>

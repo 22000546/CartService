@@ -16,13 +16,12 @@
 	<div class="main">
 		<h2 class="main">상품 정보 추가</h2>
 		<div class="board">
-			<form action="addok" method="post">
+			<form action="addok" method="post" enctype="multipart/form-data">
 				<table id="add">
 					<tr id="line1">
 						<td>상품 이름</td>
 						<td><input type="text" name="itemname" /></td>
-
-						<td><button type="button">이미지 업로드</button></td>
+						<td><input type="file" name="uploadFile"/></td>
 						<td></td>
 
 						<td>가격</td>
